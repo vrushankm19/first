@@ -11192,6 +11192,13 @@ h5,
         margin-left: 0 !important;
     }
 }
+/* Disable touch interactions for mobile devices */
+@media (max-width: 768px) {
+    .home-slider.owl-carousel {
+        pointer-events: none; /* Disable all pointer events, including touch */
+        touch-action: none; /* Disable touch actions */
+    }
+}
 
 /* .ftco-navbar-light.scrolled .navbar-toggler {
     border: none;

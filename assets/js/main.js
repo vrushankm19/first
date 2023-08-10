@@ -84,9 +84,7 @@ AOS.init({
 
 
     var carousel = function() {
-        var owl = $('.home-slider');
-    
-        owl.owlCarousel({
+        $('.home-slider').owlCarousel({
             loop: true,
             autoplay: true,
             margin: 0,
@@ -108,15 +106,8 @@ AOS.init({
                 }
             }
         });
-    
-        // Prevent page scroll when interacting with the carousel
-        owl.on('touchmove', '.owl-stage', function(e) {
-            e.preventDefault();
-        });
     };
-    
     carousel();
-    
 
     $('nav .dropdown').hover(function() {
         var $this = $(this);
