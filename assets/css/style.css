@@ -11496,6 +11496,7 @@ h5,
 @media (max-width: 991.98px) {
     .owl-carousel.home-slider .slider-item .slider-text h2 {
         color: #fff;
+        font-size: 22px;
     }
 }
 
@@ -12271,6 +12272,9 @@ textarea.form-control {
     }
     .d-s-none{
         display: none;
+    }
+    .ftco-hireme h2 {
+        font-size: 32px;
     }
 }
 
