@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Vrushank Modi</p>
+<p align="left">My Name is Vrushank Modi</p>
 
 ###
 
