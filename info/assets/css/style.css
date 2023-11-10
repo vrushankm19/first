@@ -39,6 +39,11 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+.url-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+
+}
 
 .url-card h4 {
     margin-top: 0;
@@ -49,7 +54,8 @@ body {
 }
 
 .copy-button {
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    cursor: pointer;
 }
 
 .open-button {

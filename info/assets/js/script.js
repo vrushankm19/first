@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
         document.execCommand('copy');
         document.body.removeChild(tempInput);
         // alert('URL copied to clipboard: ' + text);
+        iziToast.success({
+            title: 'Success',
+            close: false,
+            message: 'Copy to clipboard success',
+            position: 'topRight', // You can change the position of the toast
+            timeout: 3000, // Toast will auto-hide after 3 seconds
+        });
     }
 
     const categoryLinks = document.querySelectorAll('.category-link');
